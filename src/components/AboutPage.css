@@ -1,0 +1,105 @@
+.about-page {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  text-align: start;
+  background: url("https://www.shutterstock.com/image-photo/restaurant-top-view-background-website-260nw-1789991981.jpg")
+  no-repeat center ;
+  background-size: cover;
+  color: white;
+  padding: 100px 60px 80px 60px;
+  margin-bottom: 20px;
+}
+/* .hero-section::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+} */
+
+.hero-section h1 {
+  font-size: 2.5em;
+  color: white;
+}
+
+.hero-section p {
+  font-size: 1.0em;
+  margin-top: 10px;
+}
+
+.content-section {
+  margin: 20px 0;
+}
+
+.about-history,
+.about-values {
+  margin: 20px;
+}
+
+.about-history h2,
+.about-values h2 {
+  color: #636AE8;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.about-history p,
+.about-values ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.about-values ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.team-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.team-section h2 {
+  font-size: 2em;
+  color: #636AE8;
+  margin-bottom: 10px;
+}
+
+.team-section p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  font-size: 1.2em;
+  color: #444;
+}
+
+.team-member p {
+  font-size: 1em;
+  color: #666;
+}
